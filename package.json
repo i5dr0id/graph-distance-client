@@ -6,17 +6,19 @@
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-		"lint": "vue-cli-service lint",
+    "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-		"postinstall": "yarn run build",
-		"start": "node server.js"
+    "postinstall": "yarn run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "express": "^4.16.4",
     "graphdracula": "^1.2.1",
     "papaparse": "^4.6.3",
     "raphael": "^2.2.7",
     "register-service-worker": "^1.5.2",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.21",
     "vue-axios": "^2.1.4",
     "vue-js-modal": "^1.3.28",

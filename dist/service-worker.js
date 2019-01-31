@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.6a9e29bae0a1391183beac471a59d67b.js"
+  "/precache-manifest.7151e70f1139aca997d55f45d115af9b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "graph-distance-client"});
