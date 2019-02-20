@@ -112,7 +112,8 @@ export default {
           this.$swal.fire({
             title: '<strong>Result Statistics</strong>',
             type: 'success',
-            html: `Similarity Score: ${res.data.score}<br/>`
+            html: `<strong>Percentage: ${res.data.percentage_score}%</strong><br/>`
+        + `Similarity Score: ${res.data.score}<br/>`
         + `SED Matching time ratio: ${res.data.sedtime}<br/>`
         + `GED time ratio: ${res.data.sedtime}<br/>`,
             // '<strong>Source:</strong> '+ res.data.result[0].sourceedge_filtered + '<br/>'+
